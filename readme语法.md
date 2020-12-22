@@ -17,14 +17,11 @@
 * 英文名：Jelly
 
 ---
-### -文本远点展示
+### -文本远点展示，仅支持一行
 - 文本圆点
-      -文本远点第二一
-      -文本远点第二二
 - 文本圆点1
 ## 文本超链接
 [我的git地址](https://github.com/dirunru/vue3.0learning20201222)
-
 悬停显示[我的git地址](https://github.com/dirunru/vue3.0learning20201222 "悬停显示：https://github.com/dirunru/vue3.0learning20201222")
 
 # 显示文本：  只要在每行行首加两个Tab
