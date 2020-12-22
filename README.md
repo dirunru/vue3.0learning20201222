@@ -16,6 +16,19 @@
 * CSS Pre-processors //css预处理 *
 * Unit Testing // 代码风格检查和格式化 *
 * E2E Testing // 测试（站在用户角度）*
+## 注意：
+    where do you prefer placing config for babel ,Eslint,ets?(use arrow keys) //喜欢把配置放置到什么地方
+    * In dedicated config files // 独立文件放置
+    * In package.json //放package.json力
+    Save preset as:是否储存当前的配置 
+
+### 项目细节讲解
+    package.json中scripts server提示我们如何启动项目
+    
+
+
+
+
 
 
     
