@@ -60,7 +60,7 @@ document.write("写入")
 ## 插入json代码  
 ```json
    data = {
-      name:'123';
+      name: "123"
       }
 ```
 ## ```
