@@ -5,7 +5,7 @@
     更新： npm install -g npm
 ### vue ui 可视化配置脚手架内容
 ### 命令行配置 vue creat +项目名称
-    manuakky select features 自定义选择
+    选择：manuakky select features 自定义选择
     选择构建项目所需要的依赖：上下键移动选项，空格键切换选中状态，a键切换全选/取消全选，i键反选
 * Choose Vue Version //试图版本  *
 * Babel // es6代码转为es5代码 *
