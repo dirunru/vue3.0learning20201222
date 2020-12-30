@@ -91,23 +91,27 @@
 
 ```
 {
-  "editor.tabSize": 2,
+  "editor.tabSize": 4,
   "workbench.editor.showTabs": true,
   "extensions.ignoreRecommendations": false,
-  "eslint.run": "onType",
   "eslint.options": {
-    "extensions": [".js", ".vue"],
-  }, 
-  // "eslint.enable": true,
-  "editor.formatOnSave": false, 
-  "editor.autoFixOnSave": true,
+    "extensions": [
+      ".js",
+      ".vue"
+    ],
+    // "configFile": "/Users/dirunru/Documents/myself/vue-eslint-setting/.eslintrc.js"
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
   "eslint.validate": [
     "javascript",
     "javascriptReact",
     "vue",
     "html",
   ],
-  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "editor.formatOnSave": true, 
+  "editor.formatOnType": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true, //#让函数(名)和后面的括号之间加个空格
   "editor.renderIndentGuides": false,
   "guides.normal.color.dark": "rgba(91, 91, 91, 0.6)",
   "guides.normal.color.light": "rgba(220, 220, 220, 0.7)",
@@ -139,10 +143,22 @@
   "[json]": {
     "editor.defaultFormatter": "HookyQR.beautify"
   },
-  "files.autoSave": "off",  
+  "files.autoSave": "off",
   "editor.fontSize": 16,
   "editor.minimap.enabled": false,
   "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatterOptions": {
+    "wrap_attributes": "force-expand-multiline",
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline",
+      "end_with_newline": false
+    },
+    "stylusSupremacy.insertSemicolons": true, //#去掉分号
+    "stylusSupremacy.insertBraces": true, //#去掉大括号
+    "stylusSupremacy.insertColons": true //#去掉冒号
+  },
+  // vetur 格式化 html 文本的工具选择
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features",
   },
@@ -151,5 +167,11 @@
   "workbench.activityBar.visible": true,
   // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
   "git.autofetch": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.codeActionsOnSaveTimeout": 5000,
+  "eslint.format.enable": true,
+  "eslint.run": "onSave",
 }
 ```
