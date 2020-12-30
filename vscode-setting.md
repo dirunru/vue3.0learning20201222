@@ -1,4 +1,5 @@
 ### vscode-setting.js配置
+```
 // {
 //     "editor.tabSize": 4, // 保存时自动格式化代码
 //     "editor.formatOnSave": true, // 或者"eslint.autoFixOnSave": true,
@@ -102,7 +103,11 @@
 //     // 是否启用了自动提取。
 //     "git.autofetch": false,
 // }
-// ----------------
+```
+
+====
+
+```
 {
   "editor.tabSize": 2,
   "workbench.editor.showTabs": true,
@@ -165,3 +170,4 @@
   // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
   "git.autofetch": true,
 }
+```
