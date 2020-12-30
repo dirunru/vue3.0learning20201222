@@ -3,6 +3,7 @@
     npm install -g @vue/cli 
     更新： npm update -g @vue/cli
     更新： npm install -g npm
+    mac电脑如果创建项目报错，提示没有权限 sudo chown -R $(whoami) ~/.npm 输入命令 然后输入密码
 ### vue ui 可视化配置脚手架内容
 ### 命令行配置 vue creat +项目名称
     选择：manuakky select features 自定义选择
