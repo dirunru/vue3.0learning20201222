@@ -112,7 +112,7 @@
   "editor.formatOnSave": true, 
   "editor.formatOnType": true,
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true, //#让函数(名)和后面的括号之间加个空格
-  "editor.renderIndentGuides": false,
+  "editor.renderIndentGuides": true, //是否显示缩进的分割线
   "guides.normal.color.dark": "rgba(91, 91, 91, 0.6)",
   "guides.normal.color.light": "rgba(220, 220, 220, 0.7)",
   "guides.active.color.dark": "rgba(210, 110, 210, 0.6)",
