@@ -91,26 +91,30 @@
 
 ```
 {
-  "editor.tabSize": 4,
+  "editor.tabSize": 2,
   "workbench.editor.showTabs": true,
-  "extensions.ignoreRecommendations": false,
+  "extensions.ignoreRecommendations": true,
+  "editor.formatOnSave": true, 
+  "editor.fontSize": 16,
+  "editor.minimap.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "eslint.options": {
     "extensions": [
       ".js",
       ".vue"
     ],
-    // "configFile": "/Users/dirunru/Documents/myself/vue-eslint-setting/.eslintrc.js"
   },
-  "eslint.autoFixOnSave": true,
-  "eslint.enable": true,
+  // "eslint.enable": true,
+  // "eslint.autoFixOnSave": true,
+  "eslint.run": "onType",
   "eslint.validate": [
     "javascript",
-    "javascriptReact",
+    "javascriptreact",
     "vue",
     "html",
   ],
-  "editor.formatOnSave": true, 
-  "editor.formatOnType": true,
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true, //#让函数(名)和后面的括号之间加个空格
   "editor.renderIndentGuides": true, //是否显示缩进的分割线
   "guides.normal.color.dark": "rgba(91, 91, 91, 0.6)",
@@ -144,8 +148,6 @@
     "editor.defaultFormatter": "HookyQR.beautify"
   },
   "files.autoSave": "off",
-  "editor.fontSize": 16,
-  "editor.minimap.enabled": false,
   "vetur.format.defaultFormatter.js": "vscode-typescript",
   "vetur.format.defaultFormatterOptions": {
     "wrap_attributes": "force-expand-multiline",
@@ -168,11 +170,5 @@
   "workbench.activityBar.visible": true,
   // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
   "git.autofetch": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "editor.codeActionsOnSaveTimeout": 5000,
-  "eslint.format.enable": true,
-  "eslint.run": "onSave",
 }
 ```
