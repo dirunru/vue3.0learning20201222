@@ -13,3 +13,5 @@
     父beforeUpdate->子beforeUpdate->子updated->父updated
     * 销毁过程
     父beforeDestroy->子beforeDestroy->子destroyed->父destroyed
+#### vue router
+    
